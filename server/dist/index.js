@@ -22,7 +22,7 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 app.use("/auth", auth_1.default);
 app.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.json("hello world from the deployed site");
+    res.json("hello world from the deployed site 2");
 }));
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);

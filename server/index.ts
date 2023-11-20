@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/auth", authRoutes);
 app.get("/", async (req, res) => {
-  res.json("hello world from the deployed site 2");
+  res.json("hello world for final test");
 });
 
 app.listen(port, () => {

@@ -16,10 +16,10 @@ app.use("/auth", auth_1.default);
 // app.get("/", async (req, res) => {
 //   res.json("hello world for final test2");
 // });
-app.use(express_1.default.static("public"));
-app.use("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "/public/index.html"));
-});
+// app.use(express.static("public"));
+// app.use("/*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "/public/index.html"));
+// });
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
 });

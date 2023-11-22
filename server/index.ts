@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/auth", authRoutes);
 app.get("/", async (req, res) => {
-  res.json("hello world for final test2");
+  res.json("hello world!");
 });
 
 app.listen(port, () => {

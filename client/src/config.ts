@@ -1,1 +1,1 @@
-export const BASE_URL = "https://dhruvb26.online";
+export const BASE_URL = "http://localhost:3000";

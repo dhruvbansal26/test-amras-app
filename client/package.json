@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@dhruvb26/common": "^1.0.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.18",
     "@types/recoil": "^0.0.9",
     "axios": "^1.6.0",
     "jsonwebtoken": "^9.0.2",
